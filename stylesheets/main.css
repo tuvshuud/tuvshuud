@@ -1,0 +1,71 @@
+::-webkit-media-controls-start-playback-button {
+  opacity: 0;
+}
+
+@font-face {
+  font-family: 'graphik-regular';
+	src: url('../fonts/regular.eot');
+  src: local("â˜º"),
+		url('../fonts/regular.ttf') format('ttf'),
+		url('../fonts/regular.svg') format('svg'),
+		url('../fonts/regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@media screen {
+
+	html, body {
+	font-family: 'graphik-regular';
+    background: white;
+    overflow: auto;
+    line-height: 1.6em;
+	font-size: 2vw;
+	color: black;
+    height: 100%;
+	}
+
+  main {
+    padding: 6%;
+  }
+
+  main .introduction{
+    margin-bottom: 3em;
+  }
+
+  main .contact {
+    margin-bottom: 3em;
+  }
+
+	a {
+    text-decoration: none;
+    border-bottom: 0.06em solid black;
+  }
+
+	a:link { color: black; }
+	a:hover { color: black; }
+	a:active { color: black; }
+	a:visited { color: black; }
+
+  ul { list-style-type: none ;}
+
+	ul a:link { opacity: 1; }
+	ul a:hover { opacity: 1; }
+	ul a:active { opacity: 1; }
+	ul a:visited { opacity: 1; }
+
+  .fade-black {
+    -webkit-transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    background-color: black;
+    color: white;
+  }
+
+  .fade-black a {
+    color: white;
+    border-color: white;
+  }
+
+}
