@@ -1,1 +1,3 @@
-<?php system('ls'); ?>
+<script type="text/php"> 
+echo ('Your PHP Script'); 
+</script>  
