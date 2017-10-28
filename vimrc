@@ -19,3 +19,9 @@ nnoremap <space> za
 set foldmethod=indent
 set path+=**
 set autoindent
+execute pathogen#infect()
+call pathogen#helptags()
+let NERDTreeIgnore = ['\.pyc$']
+colorscheme molokai
+let g:airline_theme='molokai'
+imap qq <Esc>
